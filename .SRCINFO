@@ -1,0 +1,12 @@
+pkgbase = zig
+	pkgdesc = a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software
+	pkgver = 0.13.0
+	pkgrel = 1
+	arch = x86_64
+	license = MIT
+	provides = zig=0.13.0
+	conflicts = zig<0.13.0
+	source = https://ziglang.org/download/0.13.0/zig-linux-x86_64-0.13.0.tar.xz
+	sha256sums = d45312e61ebcc48032b77bc4cf7fd6915c11fa16e4aad116b66c9468211230ea
+
+pkgname = zig

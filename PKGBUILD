@@ -3,7 +3,7 @@
 # NOTE: Please fill out the license field for your package! If it is unknown,
 # then please put 'unknown'.
 
-# Maintainer: Your Name <youremail@domain.com>
+# Maintainer: Jacob Stannix <jakestannix@gmail.com>
 pkgname=zig
 pkgver=0.13.0
 pkgrel=1
@@ -27,7 +27,7 @@ install=
 changelog=
 source=("https://ziglang.org/download/${pkgver}/zig-linux-${arch}-${pkgver}.tar.xz")
 noextract=()
-sha256sums=(SKIP)
+sha256sums=(d45312e61ebcc48032b77bc4cf7fd6915c11fa16e4aad116b66c9468211230ea)
 validpgpkeys=()
 
 prepare() {
